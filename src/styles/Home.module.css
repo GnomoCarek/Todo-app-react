@@ -75,3 +75,24 @@
   background-color: #cc0000;
   box-shadow:5px 5px 50px #cc0000;
 }
+
+.kanbanContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem;
+}
+
+.column {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+}
+
+.column h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
